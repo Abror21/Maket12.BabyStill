@@ -1,0 +1,430 @@
+@media(max-width: 1680px) {
+    .intro {
+        padding-top: 246px;
+        padding-bottom: 165px;
+    }
+}
+@media(max-width: 1440px) {
+    .intro {
+        padding-top: 206px;
+        padding-bottom: 125px;
+    }
+    .intro .swiper-button-prev {
+        top: 40px;
+    }
+    .intro .swiper-button-next {
+        top: 40px;
+    }
+    .reviewsfrommoms_left-img {
+        top: 0;
+        left: 0;
+    }
+    .reviewsfrommoms_right-img {
+        bottom: 0;
+        right: 10px;
+    }
+}
+@media(max-width: 1366px) {
+    .reviewsfrommoms_left-img, .reviewsfrommoms_right-img {
+        display: none;
+    }
+    .order__form {
+        padding: 40px 0 40px;
+    }
+    .desitionforchild_photo{
+        width: 100%;
+    }
+    .desitionforchild__img {
+        width: 660px;
+        top: -125px;
+        right: -80px;
+    }
+    .redstar {
+        position: absolute;
+        top: -12px;
+        left: 38%;
+        width: 15px;
+        height: 15px;
+    }
+}
+@media(max-width: 1280px) {
+    .nav__item {
+        margin: 0 15px;
+    }
+    .logo__text {
+        display: none;
+    }
+    .reviewsfrommoms .swiper-button-prev {
+        left: -30px;
+    }
+    .reviewsfrommoms .swiper-button-next {
+        right: -30px;
+    }
+}
+@media(max-width: 1024px) {
+    .intro {
+        padding-top: 156px;
+    }
+    .intro__wrapper {
+        justify-content: space-between;
+    }
+    .intro__img {
+        padding-top: 50px;
+        width: 50%;
+    }
+    .viewrange .swiper-button-next, .viewrange .swiper-button-prev {
+        display: none;
+    }
+    .viewrange .swiper-pagination {
+        display: block;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10px;
+    }
+    .viewrange .swiper-pagination-bullet {
+        margin: 0 5px;
+    }
+    .gotocatalog {
+        margin-top: 50px;
+    }
+    .desitionforchild{
+        padding: 80px 0 100px;
+    }
+    .desitionforchild__img {
+        width: 556px;
+        top: -60px;
+        right: 0px;
+    }
+    .reviewsfrommoms .swiper-button-prev, .reviewsfrommoms .swiper-button-next{
+        top: 8%;
+    }
+    .reviewsfrommoms .swiper-button-next{
+        right: 15px;
+    }
+    .reviewsfrommoms .swiper-button-prev{
+        right: 75px;
+        left: auto;
+    }
+    .order{
+        padding-top: 50px;
+    }
+}
+@media(max-width: 992px) {
+    .header {
+        z-index: 99;
+    }
+    .nav {
+        display: none;
+    }
+    .menu__nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #32A19D;
+        padding: 50px 50px 20px;
+        z-index: 101;
+        transform: translateX(100%);
+        transition: .3s;
+    }
+    .menu__nav.active {
+        transform: translateX(0%);
+    }
+    .menu__nav-list {
+        flex-direction: column;
+    }
+    .menu__nav-link {
+        color: #FFF;
+    }
+    .menu__nav-link:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+    .menu__nav-item {
+        margin: 30px 20px;
+        text-align: center;
+    }
+    .header__menu {
+        display: block;
+    }
+    .nav__menu-close {
+        display: block;
+    }
+    .intro {
+        height: auto;
+    }
+    .intro__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro__content {
+        text-align: center;
+    }
+    .intro__text {
+        max-width: unset;
+    }
+    .intro__img {
+        width: 80%;
+    }
+    .desitionforchild {
+        padding: 80px 0 40px;
+    }
+    .desitionforchild__img{
+        position: unset;
+    }
+    .desitionforchild__content-choose{
+        max-width: unset;
+    }
+    .desitionforchild__img{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width: 991px) {
+    .diaper__card {
+        margin-bottom: 50px;
+    }
+    .diaper_info-photo {
+        margin-bottom: 90px;
+    }
+    .diaperinfo__header{
+        margin-bottom: 70px;
+    }
+    .order__header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .order__checktext {
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .diaper__info-photo{
+        width: 80%;
+        margin-bottom: 60px;
+    }
+    .desitionforchild_photo{
+        width: 60%;
+    }
+    .diaper__info-photo{
+        width: 70%;
+    }
+}
+@media(max-width: 768px) {
+    .ouradvantages {
+        padding: 75px 0 50px;
+    }
+    .desitionforchild_photo{
+        width: 70%;
+    }
+    .diaperinfo{
+        padding: 70px 0 50px;
+    }
+    .diaperinfo__header{
+        margin-bottom: 10px;
+    }
+    .diaperinfo__body>.col-lg-5 {
+        display: flex;
+        justify-content: center;
+    }
+    .diaper__info-photo {
+        width: 80%;
+    }
+    .reviewsfrommoms {
+        padding: 80px 0 80px;
+    }
+    .footer {
+        padding: 85px 0 35px;
+        height: auto;
+        align-items: center;
+    }
+    .footer__nav {
+        margin-top: 50px;
+    }
+    .footer__item {
+        margin: 0 13px;
+    }
+    .footer__btn-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .redstar {
+        top: 20px;
+        width: 10px;
+        height: 10px;
+    }
+}
+@media(max-width: 575px){
+    .order {
+        padding: 30px 0 15px;
+    }
+    .diaper__card{
+        margin-bottom: 35px;
+    }
+    .cirrcle1, .cirrcle2{
+        display: none;
+    }
+    .footer{
+        padding: 115px 0 35px;
+    }
+    .footer__list{
+        justify-content: space-around;
+    }
+    .footer__item{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 540px) {
+    .intro__img {
+        width: 100%;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        top: -30px;
+    }
+    .order__form input {
+        width: 90%;
+    }
+}
+@media(max-width: 425px) {
+    .logo__link {
+        margin: 0;
+    }
+    .logo__link img {
+        width: 52px;
+        height: auto;
+    }
+    .header__telegram {
+        padding: 10px;
+    }
+    .header_phone {
+        padding: 10px 15px 10px 15px;
+    }
+    .header__menu {
+        font-size: 30px;
+    }
+    .intro {
+        padding-top: 150px;
+    }
+    .intro__title{
+        font-size: 44px;
+    }
+    .intro .swiper-button-prev, .intro .swiper-button-next {
+        top: 70px;
+    }
+    .intro_butterfly {
+        left: 15%;
+    }
+    .default__title {
+        font-size: 30px !important;
+        line-height: 1.2 !important;
+        font-weight: 800 !important;
+    }
+    .default__btn {
+        padding: 8px 45px;
+    }
+    .viewrange{
+        margin-bottom: 40px;
+    }
+    .viewrange__slider-item>img{
+        width: 70%;
+    }
+    .reviewsfrommoms__slider-item {
+        padding: 20px;
+    }
+    .reviewsfrommoms__slider-item>img {
+        top: 20px;
+        left: 20px;
+    }
+    .desitionforchild__checkbox>span {
+        width: 32px;
+    }
+    .diaper__info-photo {
+        width: 95%;
+        margin-bottom: 30px;
+    }
+    .desitionforchild_photo{
+        width: 80%;
+    }
+    .order__input {
+        margin-bottom: 25px !important;
+        padding: 15px 0;
+    }
+    .order__submit {
+        padding: 15px;
+    }
+    .footer {
+        padding: 70px 0 45px;
+    }
+    .footer__nav {
+        margin-top: 55px;
+    }
+}
+@media(max-width: 375px) {
+    .intro{
+        padding-top: 110px;
+    }
+    .intro_butterfly{
+        top: 119px;
+    }
+    .header__wrapper {
+        padding: 16px 0;
+    }
+    .intro__text {
+        line-height: 1.3;
+    }
+    .header__telegram {
+        padding: 9px;
+    }
+    .header_phone {
+        width: 41px;
+        height: 41px;
+        display: flex;
+        justify-content: center;
+    }
+    .header_phone img {
+        margin-right: 0;
+    }
+    .header_phone span {
+        display: none;
+    }
+    .viewrange__changeversion-babystill, .viewrange__changeversion-gigo {
+        font-size: 11px;
+    }
+    .desitionforchild__checkbox>span {
+        width: 35px;
+    }
+    .breadcrumb-list{
+        flex-wrap: wrap;
+    }
+    .breadcrumb-item {
+        margin-right: 6px;
+    }
+    .reviewsfrommoms{
+        padding: 70px 0 80px;
+    }
+    .ouradvantages{
+        padding: 75px 0 20px;
+    }
+    .footer {
+        padding: 45px 0;
+    }
+}
+@media(max-width: 360px){
+    .reviewsfrommoms__title{
+        margin-bottom: 50px;
+    }
+    .reviewsfrommoms .swiper-button-prev, .reviewsfrommoms .swiper-button-next{
+        top: 12%;
+    }  
+}
+
+@media(max-width: 320px) {
+    .desitionforchild__checkbox>span {
+        width: 39px;
+    }
+    .breadcrumb{
+        padding: 0;
+    }
+}

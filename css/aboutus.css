@@ -1,0 +1,221 @@
+.aboutus__intro {
+    padding: 140px 0 0;
+    margin-bottom: 88px;
+}
+
+.aboutus__intro-title {
+    color: #4F4F4F;
+    margin-bottom: 15px;
+}
+
+.aboutus__intro-title>span {
+    color: #f85251;
+    margin-bottom: 15px;
+}
+
+.aboutus__intro-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #4F4F4F;
+    margin-bottom: 45px;
+}
+
+.aboutus__intro-img {
+    width: 100%;
+    height: auto;
+}
+
+.product__info-card {
+    padding: 30px 20px;
+    box-shadow: 0px 0px 40px rgba(0, 56, 255, 0.06);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.product__info-card14{
+    padding: 30px 11px;
+}
+.product__info-card>span {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 18px;
+    color: #32A19D;
+    margin-right: 10px;
+}
+
+.product__info-card>p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.certificate {
+    padding: 82px 0;
+    background-image: url(../img/certificate_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.certificate__content {
+    padding: 23px 30px;
+    box-shadow: 0px 0px 40px rgba(0, 56, 255, 0.06);
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.certificate__content>img {
+    margin-right: 54px;
+}
+
+.certificate__content>p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4F4F4F;
+}
+.ouradvantages{
+    position: relative;
+}
+.shining__star, .shining__circle1, .shining__circle2, .shining__circle3,
+.shining__circle4, .shining__circle5, .pinkstar{
+    position: absolute;
+}
+.shining__circle1, .shining__circle2, .shining__circle3,
+.shining__circle4, .shining__circle5{
+    border-radius: 50%;
+    background-color: #FAEBD5;
+}
+.shining__circle1, .shining__circle2, .shining__circle3,
+.shining__circle4, .shining__circle5{
+    width: 20px;
+    height: 18px;
+}
+.shining__star{
+    top: 50%;
+    left: 50%;
+}
+.shining__circle1{
+    top: 50px;
+    left: 100px;
+}
+.shining__circle2{
+    left: 300px;
+    bottom: 150px;
+}
+.shining__circle3{
+    right: 150px;
+    bottom: 150px;
+}
+.shining__circle4{
+    right: 60%;
+    top: 50%;
+}
+.shining__circle5{
+    right: 52%;
+    top: 60%;
+}
+.pinkstar{
+    top: 30%;
+    left: 30%;
+}
+.ourpartners{
+    background-image: url(../img/certificate_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0 100px;
+}
+.ourpartners__title{
+    color: #4F4F4F;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.ourpartners__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ourpartners__content>img {
+    padding: 21px 37px;
+    background-color: #fff;
+    border: 1px solid #FFD528;
+    border-radius: 50px;
+    margin: 0 6px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+@media(max-width: 1280px){
+    .ourpartners__content{
+        justify-content: space-around;
+    }
+    .ourpartners__content>img{
+        margin-bottom: 25px;
+    }
+}
+@media(max-width: 991px) {
+    .aboutus__intro-img-wrapper {
+        text-align: center;
+    }
+    .aboutus__intro-img {
+        width: 80%;
+    }
+}
+@media(max-width: 768px){
+    .aboutus__intro{
+        margin-bottom: 45px;
+    }
+    .certificate{
+        padding: 60px 0;
+    }
+    .ourpartners{
+        padding: 75px 0;
+    }
+    .order{
+        padding: 90px 0 40px;
+    }
+    .shining__star, .shining__circle1, .shining__circle2, .shining__circle3,
+.shining__circle4, .shining__circle5, .pinkstar{
+    display: none;
+}
+} 
+@media(max-width: 575px) {
+    .certificate__content {
+        flex-direction: column;
+    }
+    .certificate__content>img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .certificate__content>p {
+        text-align: center;
+    }
+}
+@media(max-width: 540px){
+    .ouradvantages {
+        padding: 40px 0;
+    }
+    .ourpartners {
+        padding: 50px 0;
+    }
+    .order {
+        padding: 50px 0 15px;
+    }
+}
+@media(max-width: 425px) {
+    .aboutus__intro {
+        padding: 120px 0 0;
+    }
+    .aboutus__intro-img {
+        width: 100%;
+    }
+    .aboutus__intro-content {
+        margin-bottom: 40px;
+    }
+}

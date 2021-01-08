@@ -1,0 +1,127 @@
+.blog {
+    padding-top: 136px;
+}
+
+.blog__header>.breadcrumb {
+    margin-bottom: 15px;
+}
+
+.blog__title {
+    margin-bottom: 40px;
+}
+.blog__content-link:hover{
+    text-decoration: none;
+}
+
+.blog__card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: all .2s;
+}
+.blog__card:hover{
+    box-shadow: 0px 0px 40px rgba(0, 56, 255, 0.06);
+    border-radius: 10px;
+}
+
+.blog__card>img {
+    margin-right: 20px;
+    width: 30%;
+}
+
+.blog__card-content>h3 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #4F4F4F;
+    margin-bottom: 12px;
+    transition: all .2s;
+}
+.blog__card:hover .blog__card-content>h3{
+    color: #2A9591;
+}
+.blog__card-content>p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+
+.blog__card-content>span {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #2A9591;
+    cursor: pointer;
+    transition: all .2s;
+}
+.blog__card:hover .blog__card-content>span{
+    color: #F85251;
+}
+.blog__aside>.ouradvantages__card{
+    box-shadow: unset;
+}
+/* ////////////////////////////////////// */
+
+@media(max-width: 1024px){
+    .blog{
+        padding-top: 110px;
+    }
+    .blog__title{
+        margin-bottom: 0;
+    }
+}
+@media(max-width: 768px){
+    .blog__card-content>h3{
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+    .blog__card-content>p{
+        line-height: 1.2;
+        margin-bottom: 4px;
+    }
+}
+@media(max-width: 575px){
+    .blog__card{
+        flex-direction: column;
+        text-align: center;
+    }
+    .blog__title{
+        text-align: center;
+    }
+    .blog__aside>.ouradvantages__card{
+        height: unset;
+    }
+    .blog__aside>.ouradvantages__card>p{
+        margin-bottom: 0;
+    }
+    .blog__card>img{
+        margin-right: 0;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 425px){
+    .blog{
+        padding-top: 95px;
+    }
+    .blog__aside>.ouradvantages__card:last-child{
+        margin-bottom: 0;
+    }
+    .blog__aside>.ouradvantages__card{
+        margin-bottom: 10px;
+    }
+    .blog__aside>.ouradvantages__card>img{
+        margin-bottom: 10px;
+    }
+    .blog__aside>.ouradvantages__card>h6{
+        margin-bottom: 2px;
+    }
+}
+
+@media(max-width: 375px){
+    .blog__card>img{
+        width: 70%;
+    }
+}
