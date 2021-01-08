@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/logo.png">
+    <link rel="stylesheet" href="./css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/contacts.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-xl">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a class="logo__link" href="./index.html"><img src="./img/logo.png" alt=""></a>
+                    <span class="logo__text">Слоган будет идти тут примерно семь слов</span>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="./aboutus.html">О нас</a></li>
+                        <li class="nav__item"><a class="nav__link" href="./catalog.html">Продукция</a></li>
+                        <li class="nav__item"><a class="nav__link" href="./catalog.html">Производства</a></li>
+                        <li class="nav__item"><a class="nav__link" href="./faq.html">Сертификаты</a></li>
+                        <li class="nav__item"><a class="nav__link" href="./blog.html">Блог</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header__contacts">
+                    <a class="header__telegram" href="#!">
+                        <img src="./img/header_telegram.svg" alt="">
+                    </a>
+                    <a class="header_phone" href="tel:+998933888010">
+                        <img src="./img/header_phone.svg" alt="">
+                        <span>+998 93 388 8010</span>
+                    </a>
+                </div>
+                <span class="header__menu"><i class="fal fa-bars"></i></span>
+            </div>
+        </div>
+    </header>
+    <nav class="menu__nav">
+        <span class="nav__menu-close">&times;</span>
+        <ul class="menu__nav-list">
+            <li class="menu__nav-item"><a class="menu__nav-link" href="./aboutus.html" target="_blank">О нас</a></li>
+            <li class="menu__nav-item"><a class="menu__nav-link" href="./catalog.html">Продукция</a></li>
+            <li class="menu__nav-item"><a class="menu__nav-link" href="./catalog.html">Производства</a></li>
+            <li class="menu__nav-item"><a class="menu__nav-link" href="./faq.html">Сертификаты</a></li>
+            <li class="menu__nav-item"><a class="menu__nav-link" href="./blog.html">Блог</a></li>
+            <li class="menu__nav-item"><a class="menu__nav-link" href="#">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main class="contacts">
+        <div class="contacts__header">
+            <div class="container-xl">
+                <nav class="breadcrumb">
+                    <ul class="breadcrumb-list">
+                        <li class="breadcrumb-item">
+                            <a href="./index.html" class="breadcrumb-link">Главная</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#!" class="breadcrumb-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <h2 class="default__title contacts__header-title">Наши <span>контакты</span></h2>
+            </div>
+        </div>
+
+        <section class="contactinfo">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="contactinfo__card">
+                            <img src="./img/contactinfo-img1.svg" alt="">
+                            <h5>Приходите</h5>
+                            <span>г. Ташкент, М. Улугбек район, Дустлик 6-40</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="contactinfo__card">
+                            <img src="./img/contactinfo-img2.svg" alt="">
+                            <h5>Позвоните</h5>
+                            <span>+998 93 388 8010</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="contactinfo__card">
+                            <img src="./img/contactinfo-img3.svg" alt="">
+                            <h5>Напшите</h5>
+                            <span>info@babystill.uz</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="contactinfo__card">
+                            <img src="./img/contactinfo-img4.svg" alt="">
+                            <h5>Каждый день</h5>
+                            <span>Пн-Сб с 9:00 - до 18:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contactinfo__form">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <form class="order__form">
+                            <h4 class="order__form-title">Заказать подгузники можно прямо тут</h4>
+                            <div class="input-group">
+                                <input class="order__input" type="text" placeholder="Ваше имя">
+                                <input class="order__input" type="text" placeholder="Номер телефона">
+                                <input class="order__input" type="text" placeholder="Размер и количество">
+                            </div>
+                            <input class="order__submit" value="Заказать" type="submit">
+                        </form>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contactinfo__form-map">
+                            <div id="contactinfo__map"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container-xl">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="./aboutus.html" class="footer__link">О нас</a>
+                    </li>
+                    <li class="footer__item"><a href="./blog.html" class="footer__link">Блог</a></li>
+                    <li class="footer__item"><a href="./faq.html" class="footer__link">Сертификаты</a></li>
+                    <li class="footer__item"><a href="./catalog.html" class="footer__link">Производства</a></li>
+                    <li class="footer__item"><a href="./catalog.html" class="footer__link">Все товары</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+                    <div class="footer__btn-wrapper">
+                        <a class="footer__btn default__btn" href="#!">Заказть звонок</a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <img class="redstar" src="./img/redstar.svg" alt="red star">
+    </footer>
+
+
+
+    <div class="wrapper"></div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGhMCJ69HR9zEhLWF-NnnO-YFgaXTWxYA&callback=initMap&libraries=&v=weekly"
+        defer></script>
+    <script src="./js/contacts.js"></script>
+</body>
+
+</html>
